@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E156836217BC51500484A24 /* ColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E156835217BC51500484A24 /* ColorControl.swift */; };
+		3E5925A4217B4087000E65A8 /* DrawModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5925A3217B4087000E65A8 /* DrawModeViewController.swift */; };
+		3E5925A6217B4AE3000E65A8 /* PreviewScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5925A5217B4AE3000E65A8 /* PreviewScreenViewController.swift */; };
+		3E5925A8217B4B47000E65A8 /* DrawScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5925A7217B4B47000E65A8 /* DrawScreenViewController.swift */; };
+		3E5925AA217B80D7000E65A8 /* DrawAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5925A9217B80D7000E65A8 /* DrawAreaView.swift */; };
+		3E5925AC217B83C3000E65A8 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5925AB217B83C3000E65A8 /* Line.swift */; };
+		3E5925AE217BA6C1000E65A8 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5925AD217BA6C1000E65A8 /* Color.swift */; };
 		3E8116F8217B202B0008DBE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8116F7217B202B0008DBE1 /* AppDelegate.swift */; };
-		3E8116FA217B202B0008DBE1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8116F9217B202B0008DBE1 /* FirstViewController.swift */; };
-		3E8116FC217B202B0008DBE1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8116FB217B202B0008DBE1 /* SecondViewController.swift */; };
 		3E8116FF217B202B0008DBE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8116FD217B202B0008DBE1 /* Main.storyboard */; };
 		3E811701217B202B0008DBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E811700217B202B0008DBE1 /* Assets.xcassets */; };
 		3E811704217B202B0008DBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E811702217B202B0008DBE1 /* LaunchScreen.storyboard */; };
 		3E81170F217B202C0008DBE1 /* SimpleDrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E81170E217B202C0008DBE1 /* SimpleDrawingTests.swift */; };
 		3E81171A217B202C0008DBE1 /* SimpleDrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E811719217B202C0008DBE1 /* SimpleDrawingUITests.swift */; };
+		3E811728217B2BED0008DBE1 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E811727217B2BED0008DBE1 /* DrawViewController.swift */; };
+		3E81172A217B2C050008DBE1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E811729217B2C050008DBE1 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E156835217BC51500484A24 /* ColorControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorControl.swift; sourceTree = "<group>"; };
+		3E5925A3217B4087000E65A8 /* DrawModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawModeViewController.swift; sourceTree = "<group>"; };
+		3E5925A5217B4AE3000E65A8 /* PreviewScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewScreenViewController.swift; sourceTree = "<group>"; };
+		3E5925A7217B4B47000E65A8 /* DrawScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawScreenViewController.swift; sourceTree = "<group>"; };
+		3E5925A9217B80D7000E65A8 /* DrawAreaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawAreaView.swift; sourceTree = "<group>"; };
+		3E5925AB217B83C3000E65A8 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		3E5925AD217BA6C1000E65A8 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		3E8116F4217B202B0008DBE1 /* SimpleDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8116F7217B202B0008DBE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E8116F9217B202B0008DBE1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3E8116FB217B202B0008DBE1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3E8116FE217B202B0008DBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E811700217B202B0008DBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E811703217B202B0008DBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		3E811715217B202C0008DBE1 /* SimpleDrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDrawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E811719217B202C0008DBE1 /* SimpleDrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDrawingUITests.swift; sourceTree = "<group>"; };
 		3E81171B217B202C0008DBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E811727217B2BED0008DBE1 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		3E811729217B2C050008DBE1 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E156837217C498400484A24 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		3E156838217C498E00484A24 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group1";
+			sourceTree = "<group>";
+		};
+		3E156839217C499E00484A24 /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group2";
+			sourceTree = "<group>";
+		};
+		3E15683A217C4A0300484A24 /* New Group3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group3";
+			sourceTree = "<group>";
+		};
 		3E8116EB217B202B0008DBE1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +141,24 @@
 		3E8116F6217B202B0008DBE1 /* SimpleDrawing */ = {
 			isa = PBXGroup;
 			children = (
+				3E15683A217C4A0300484A24 /* New Group3 */,
+				3E156839217C499E00484A24 /* New Group2 */,
+				3E156838217C498E00484A24 /* New Group1 */,
+				3E156837217C498400484A24 /* New Group */,
 				3E8116F7217B202B0008DBE1 /* AppDelegate.swift */,
-				3E8116F9217B202B0008DBE1 /* FirstViewController.swift */,
-				3E8116FB217B202B0008DBE1 /* SecondViewController.swift */,
 				3E8116FD217B202B0008DBE1 /* Main.storyboard */,
 				3E811700217B202B0008DBE1 /* Assets.xcassets */,
 				3E811702217B202B0008DBE1 /* LaunchScreen.storyboard */,
 				3E811705217B202C0008DBE1 /* Info.plist */,
+				3E811727217B2BED0008DBE1 /* DrawViewController.swift */,
+				3E811729217B2C050008DBE1 /* HistoryViewController.swift */,
+				3E5925A3217B4087000E65A8 /* DrawModeViewController.swift */,
+				3E5925A5217B4AE3000E65A8 /* PreviewScreenViewController.swift */,
+				3E5925A7217B4B47000E65A8 /* DrawScreenViewController.swift */,
+				3E5925A9217B80D7000E65A8 /* DrawAreaView.swift */,
+				3E5925AB217B83C3000E65A8 /* Line.swift */,
+				3E5925AD217BA6C1000E65A8 /* Color.swift */,
+				3E156835217BC51500484A24 /* ColorControl.swift */,
 			);
 			path = SimpleDrawing;
 			sourceTree = "<group>";
@@ -265,9 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8116FC217B202B0008DBE1 /* SecondViewController.swift in Sources */,
+				3E5925A6217B4AE3000E65A8 /* PreviewScreenViewController.swift in Sources */,
+				3E81172A217B2C050008DBE1 /* HistoryViewController.swift in Sources */,
+				3E5925A8217B4B47000E65A8 /* DrawScreenViewController.swift in Sources */,
+				3E156836217BC51500484A24 /* ColorControl.swift in Sources */,
+				3E5925A4217B4087000E65A8 /* DrawModeViewController.swift in Sources */,
+				3E811728217B2BED0008DBE1 /* DrawViewController.swift in Sources */,
+				3E5925AC217B83C3000E65A8 /* Line.swift in Sources */,
 				3E8116F8217B202B0008DBE1 /* AppDelegate.swift in Sources */,
-				3E8116FA217B202B0008DBE1 /* FirstViewController.swift in Sources */,
+				3E5925AA217B80D7000E65A8 /* DrawAreaView.swift in Sources */,
+				3E5925AE217BA6C1000E65A8 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +578,7 @@
 				3E811720217B202C0008DBE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E811721217B202C0008DBE1 /* Build configuration list for PBXNativeTarget "SimpleDrawingTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +587,7 @@
 				3E811723217B202C0008DBE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E811724217B202C0008DBE1 /* Build configuration list for PBXNativeTarget "SimpleDrawingUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +596,7 @@
 				3E811726217B202C0008DBE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
